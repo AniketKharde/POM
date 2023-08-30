@@ -28,4 +28,10 @@ public class PIMTest extends CommonTest {
 		Assert.assertEquals(verifyEmpName, "lan");
 	}
 	
+	@Test(priority=5,groups= {"Smoke","Regression"})
+	public void verify() throws InterruptedException {
+	
+		Assert.assertEquals(true, true);
+	}
+	
 }
